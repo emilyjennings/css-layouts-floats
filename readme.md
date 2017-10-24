@@ -1,1 +1,2 @@
-doing some practice with layouts
+- Open up stuff in a browser!
+- Working on the layout

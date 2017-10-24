@@ -1,7 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: Arial, sans-serif;
+  padding: 20px;
+  background-color: #bec4d3;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
   font-size: 25px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px dotted #40475b;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 30px;
+  overflow: auto; /* allows floated children to hold out its height*/
+}
+
+div.bear {
+  border: 5px solid #2e5060;
+  float: right;
+  padding: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+section, aside {
+  border: 1px dotted #18191c;
+  float: left;
+}
+
+aside {
+  float: right;
+}
+
+/*will clear anything that's before it no matter what direction they're in*/
+footer {
+  clear: both;
+}
+
+/* custom column setup. aka "grid" */
+.column {
+  border: 1px dotted #18191c;
+  float: left;
+  width: 50%;
 }
